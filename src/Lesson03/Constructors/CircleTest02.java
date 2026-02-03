@@ -41,13 +41,13 @@ public class CircleTest02 {
         } else {
             System.out.println("Cirklen 3 er lille.");
         }
-        System.out.println("Areal af cirkel 4: " + areal3);
+        System.out.println("Areal af cirkel 4: " + areal4);
         if (areal4 > 100) {
             System.out.println("Cirklen 4 er stor!");
         } else {
             System.out.println("Cirklen 4 er lille.");
         }
-        System.out.println("Areal af cirkel 5: " + areal3);
+        System.out.println("Areal af cirkel 5: " + areal5);
         if (areal5 > 100) {
             System.out.println("Cirklen 5 er stor!");
         } else {
