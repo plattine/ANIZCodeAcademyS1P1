@@ -4,10 +4,11 @@ package Lesson03.DotOperator;
 public class Movie {
     String title;
     String genre;
+    String length;
     int rating;
 
     void playIt() {
 
-        System.out.println("Playing the movie: " + title + " (" + genre + ") - Rating: " + rating);
+        System.out.println("Playing the movie: " + title + " (" + genre + ") - Rating: " + rating +"," + " Length" + length);
     }
 }
