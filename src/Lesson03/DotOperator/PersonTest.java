@@ -20,6 +20,8 @@ public class PersonTest {
 
         OpretNytPersonObjekt(fName2, mName2, lName2, age2, height2);
 
+        OpretNytPersonObjekt("Santa", "Claus", "Northpole", 1000, 190);
+
     }
 
     public static void OpretNytPersonObjekt(String fName, String mName, String lName, int age, int height)
