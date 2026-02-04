@@ -1,0 +1,29 @@
+Update the test class so it creates at least three different triangles and compares their areas.
+Print which triangle has the largest area.
+
+Assisnment 2 - Rectangle object
+You are going to create a simple Java program that works with a Rectangle object.
+The rectangle should have:
+Attributes (fields): length and width
+Constructor: to initialize the rectangle with values for length and width
+Methods:
+getPerimeter() → calculate and return the perimeter of the rectangle
+getArea() → calculate and return the area of the rectangle
+showInfo() → print the length, width, perimeter, and area
+
+!ADVANCED:
+Assignment 3 – Add a Method isEquilateral()
+
+Add a method called isEquilateral() that returns true if all three sides are equal, otherwise false.
+Test the method in the test class.
+
+Assignment 4 – Add a Method isIsosceles()
+
+Add a method called isIsosceles() that returns true if at least two sides are equal.
+Print the result in showInfo().
+
+Assignment 5 – Add a Method scaleTriangle(double factor)
+
+Add a method that multiplies all sides by a given factor.
+Test the method by scaling a triangle and printing the new values.
+
