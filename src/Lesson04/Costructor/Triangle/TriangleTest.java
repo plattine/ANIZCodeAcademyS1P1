@@ -9,5 +9,12 @@ public class TriangleTest {
 
         Triangle t2 = new Triangle(6, 6, 6);
         t2.showInfo();
+
+        System.out.println();
+
+        Triangle t3 = new Triangle(3, 5, 9);
+        t3.showInfo();
+
+
     }
 }
