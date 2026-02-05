@@ -1,0 +1,17 @@
+📝 Java Assignment – “Grade Calculator”
+
+You will create a Grade Calculator program in Java.
+1. Use logical operators (&&, ||) in conditional statements.
+
+Letter Grade Rules
+Score	Grade
+90 or above	A
+75–89	B
+50–74	C
+Below 50	Fail
+
+Expected Outputs:
+Student score: 82
+Grade: B
+Student score: 47
+Grade: Fail
