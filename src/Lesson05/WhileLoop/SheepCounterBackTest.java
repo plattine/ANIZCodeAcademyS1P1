@@ -1,8 +1,8 @@
 package Lesson05.WhileLoop;
 
-public class SheepCounterTest {
+public class SheepCounterBackTest {
     public static void main(String[] args) {
-        SheepCounter counter = new SheepCounter(49);
+        SheepCounterBack counter = new SheepCounterBack(40);
         counter.countSheep();
     }
 }
