@@ -1,0 +1,51 @@
+SPORT EVENT
+OPGAVEBESKRIVELSE
+Du skal lave et simpelt Java-program, der beskriver et sportsevent.
+Programmet skal arbejde med sportsudøvere og vise, hvad de laver.
+
+OPGAVE 1 – Athlet-KLASSEN
+Lav en class, der repræsenterer en sportsudøver.
+Krav:
+- En attribut til navn
+- En konstruktør, der modtager navnet
+- Metoder som:
+  * warmUp
+  * compete
+  * celebrate
+
+Metoderne skal kun udskrive tekst.
+
+OPGAVE 2 – TEST-KLASSEN
+Lav en test-class med en main-metode.
+Krav:
+- Opret et array med mindst 3 sportsudøvere
+- Giv dem navne
+- Brug et for-each loop
+- Kald alle metoderne på hver sportsudøver
+- Udskriv en tom linje mellem hver
+
+Opgave 3 EKSTRA (FRIVILLIG)
+- Tilføj sportstype (attribute)
+- Spørg hvor mange sportman der skal laves/registreres (Scanner)
+
+Forventet Output:
+Alex warms up before the competition.
+Alex competes in the event.
+Alex celebrates their achievement with a smile.
+
+Maria warms up before the competition.
+Maria competes in the event.
+Maria celebrates their achievement with a smile.
+
+Forventet Output Extra:
+Alex stretches legs and skis through the snow. ⛷️
+Alex competes in Skiing!
+Alex sips hot chocolate after skiing. ☕
+
+Maria practices flips and jumps on the snowboard. 🏂
+Maria competes in Snowboarding!
+Maria does a victory trick on the snowboard! 🏂
+
+Jonas focuses eyes and practices breathing. 🎯
+Jonas competes in Shooting!
+Jonas raises the rifle proudly on the podium. 🏆
