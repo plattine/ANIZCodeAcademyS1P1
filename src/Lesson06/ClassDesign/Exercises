@@ -1,0 +1,11 @@
+1. Create a class named Tomato.
+The class must have 2 attributes (for example: name and color, or weight and ripeness).
+Two constructors:
+    one constructor that sets both attributes
+    one constructor with no parameters
+Getter and setter methods for both attributes.
+A toString() method that returns a descriptive text of the tomato.
+
+2. Create two Tomato objects using new.
+Print the tomato objects using System.out.println.
+Make sure that the toString() method is used.
