@@ -16,6 +16,9 @@ public class KitchenGarden {
         Salad salad1 = new Salad();
         Salad salad2 = new Salad("Spinach", 30, 150.0);
 
+        Tomato tomato1 = new Tomato();
+        Tomato tomato2 = new Tomato("very ripe", 50);
+
         // Print all vegetables
         System.out.println(carrot1);
         System.out.println(carrot2);
@@ -25,5 +28,7 @@ public class KitchenGarden {
         System.out.println(beans2);
         System.out.println(salad1);
         System.out.println(salad2);
+        System.out.println(tomato1);
+        System.out.println(tomato2);
     }
 }
