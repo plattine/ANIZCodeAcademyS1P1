@@ -1,4 +1,4 @@
-package Lesson05.WhileLoop;
+package OwnExercises;
 
 public class BottleSongTest {
     public static void main(String[] args) {

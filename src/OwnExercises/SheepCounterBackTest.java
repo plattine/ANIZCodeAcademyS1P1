@@ -1,4 +1,4 @@
-package Lesson05.WhileLoop;
+package OwnExercises;
 
 public class SheepCounterBackTest {
     public static void main(String[] args) {

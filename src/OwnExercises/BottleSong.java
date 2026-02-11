@@ -1,4 +1,4 @@
-package Lesson05.WhileLoop;
+package OwnExercises;
 
 public class BottleSong {
     // private variable
