@@ -1,0 +1,37 @@
+🌸 Assignment: Flower Shop
+🎯 Objective
+The goal of this assignment is to practice working with classes, objects, and arrays in Java.
+
+📌 Part 1 – The Flower Class
+Create a class named Flower.
+
+Requirements:
+The class must contain attributes that describe a flower
+The class must have at least one constructor
+The class must include getter methods
+The class must include at least one setter method
+The class must include a toString() method
+
+📌 Part 2 – The FlowerShop Class
+Create a class named FlowerShop with a main method.
+
+Requirements:
+Create several Flower objects using new
+Store the objects in an array
+Print all flowers stored in the array
+
+📌 Part 3 – Working with the Array
+In the FlowerShop class, work further with the array:
+Traverse the array using a loop
+Display information about each flower
+Perform at least one operation on the array
+(for example: counting, sorting, or calculating a value)
+
+⭐ Extension Possibilities (Optional)
+
+Sort the flowers by price or name
+Count flowers based on a specific attribute (e.g. color)
+Calculate the total price of all flowers
+Find the most expensive flower
+Use Scanner to let the user add flowers
+Create an additional class such as FlowerBouquet

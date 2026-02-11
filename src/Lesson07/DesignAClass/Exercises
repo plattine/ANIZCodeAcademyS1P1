@@ -1,0 +1,22 @@
+🤔 Reflection Questions (Java – Chess & Go)
+
+1.What happens if the toString() method is removed from the class?
+
+2.Why are the attributes declared as private instead of public?
+
+3.What does the keyword new do exactly in Java?
+
+4.What are good naming conventions for variables, methods, classes and constants in Java??
+
+5.What happens if you print an object without a toString() method?
+
+6.Why is it useful to have both an empty constructor and a constructor with parameters?
+
+7.What is the purpose of getters and setters?
+
+8.What happens if two objects are created from the same class—do they share values?
+
+9.What is encapsulation, and how is it used in the Chess and Go classes?
+
+10.What would happen if the attributes were not private but public?
+
