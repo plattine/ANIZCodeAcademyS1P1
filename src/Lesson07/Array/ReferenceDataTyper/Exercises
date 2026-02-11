@@ -1,0 +1,13 @@
+1. Add a new mushroom
+
+Add a 5. mushroom "Shiitake", "Brun" to the basket.
+
+2. Check a mushroom
+
+Create a Mushroom object for "Østershat", "Grå" and check if it exists in the basket using equals().
+
+Print "Found!" if it exists, otherwise print "Not found!".
+
+3. Highlight a color
+
+Loop through the basket and print only the mushrooms that are "Brun" in color.
