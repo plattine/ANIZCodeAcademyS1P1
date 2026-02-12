@@ -4,9 +4,9 @@
 
 2.Why are the attributes declared as private instead of public?
 
-3.What does the keyword new do exactly in Java?
+3.What does this keyword new do exactly in Java?
 
-4.What are good naming conventions for variables, methods, classes and constants in Java??
+4.What are good naming conventions for variables, methods, classes and constants in Java?
 
 5.What happens if you print an object without a toString() method?
 

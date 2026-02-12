@@ -19,6 +19,7 @@ public class TivoliRideTestScanner {
     }
 
     public static void check(TivoliRide ride, int height) {
+
         ride.checkHeight(height); // Test
     }
 }

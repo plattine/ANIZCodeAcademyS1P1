@@ -1,6 +1,6 @@
 package Lesson01.WriteToConsol;
 
-//This is a comment. You can write a little note her.
+//This is a comment. You can write a little note her. Hello
 public class WriteToConsol01 {
     public static void main(String[] args) {
 
