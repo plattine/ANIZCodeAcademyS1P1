@@ -7,18 +7,21 @@ public class ArrayDemo {
 
     // 1. Creating Arrays
     public int[] numbers;
+    // String is not primitive datatype
     public String[] names;
     public char[] grades;
 
     public ArrayDemo() {
         numbers = new int[] {10, 20, 30, 40, 50};
+
         names = new String[] {"Alex", "Maria", "Jonas"};
-        grades = new char[] {'A', 'B', 'C', 'A', 'B'};
+        // names[0]="Alex", names[1]="Maria"
+        grades = new char[] {'A', 'B', 'C', 'D', 'E'};
     }
 
     // 2. Accessing elements
     public void accessElements() {
-        System.out.println("First number: " + numbers[0]);
+        System.out.println("First number: " + numbers[3]);
         System.out.println("First name: " + names[0]);
         System.out.println("First grade: " + grades[0]);
     }
