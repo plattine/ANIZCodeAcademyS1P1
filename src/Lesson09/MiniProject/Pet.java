@@ -16,10 +16,12 @@ public class Pet {
         this.name = name;
     }
 
+
     // Getter method (used to access private attribute)
     public String getName() {
         return name;
     }
+
 
     // Setter method (used to change name if needed)
     public void setName(String name) {

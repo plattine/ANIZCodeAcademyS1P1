@@ -9,6 +9,7 @@ public class MushroomBasket {
         basket[1] = new Mushroom("Portobello", "Brun");
         basket[2] = new Mushroom("Østershat", "Grå");
         basket[3] = new Mushroom("Rød fluesvamp", "Rød");
+        basket[4] = new Mushroom("Shiitake", "Brun");
 
 
         // Udskriv alle svampe med toString()

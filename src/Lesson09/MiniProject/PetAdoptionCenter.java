@@ -78,7 +78,7 @@ public class PetAdoptionCenter {
 
             System.out.println("\nRegister pet #" + (i + 1));
 
-            System.out.print("Type (dog/cat/lizard): ");
+            System.out.print("Type (dog/cat/lizard/bird): ");
             String type = sc.nextLine();
 
             System.out.print("Name: ");
@@ -91,6 +91,10 @@ public class PetAdoptionCenter {
                 pets[i] = new Cat(name);
             } else if (type.equalsIgnoreCase("lizard")) {
                 pets[i] = new Lizard(name);
+            } else if (type.equalsIgnoreCase("bird")) {
+                System.out.println("What is the  wingspan?");
+                Double wingSpan = sc.nextDouble();
+                pets[i] = new Bird(name, wingSpan);
             } else {
                 System.out.println("Unknown type, saving as generic pet.");
                 pets[i] = new Pet(name);
