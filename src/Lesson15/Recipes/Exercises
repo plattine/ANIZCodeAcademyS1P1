@@ -1,0 +1,63 @@
+1. Refactor File Handling in RecipeFileHandler
+Your task is to improve the file handling implementation in the class:
+The current implementation uses:
+    FileReader
+    FileWriter
+
+You must refactor the code so it uses:
+    BufferedReader
+    BufferedWriter
+
+2. 35 Questions
+
+ SECTION A – Architecture & Packages
+   Why is the program divided into packages (e.g., model, service, ui)?
+   What is the responsibility of the model package?
+   What is the responsibility of the service package?
+   Why should the UI not handle file reading directly?
+   What problem occurs if all classes are placed in one package?
+   What is separation of concerns?
+   What is the benefit of splitting UI and business logic?
+   Why is RecipeFileHandler placed in service instead of model?
+
+ SECTION B – Encapsulation
+
+   What is encapsulation?
+   Why are fields usually declared private?
+   What is the purpose of getters and setters?
+   What could happen if we made all fields public?
+   How does encapsulation improve maintainability?
+   Can we validate data inside setters? Why is that useful?
+
+  SECTION C – Inheritance & Abstraction
+
+   Why is Ingredient an abstract class?
+   What does abstraction mean in OOP?
+   Why can we not instantiate Ingredient directly?
+   What do SolidIngredient and LiquidIngredient inherit?
+   When should you use inheritance?
+   What problem does inheritance solve in this program?
+
+  SECTION D – Polymorphism
+
+   What is polymorphism?
+   How is polymorphism used in writeShoppingList()?
+   Why does formatForShoppingList() work without knowing the subclass?
+   What would happen if we removed polymorphism and used if statements everywhere?
+   What is runtime polymorphism?
+
+  SECTION E – File Handling
+
+   What is the difference between FileReader and BufferedReader?
+   What is the difference between FileWriter and BufferedWriter?
+   Why is buffering more efficient?
+   What is try-with-resources and why is it useful?
+   What could happen if we forget to close a file?
+
+ SECTION F – Collections & Enums
+
+   What is the difference between an ArrayList and an array?
+   Why do we use ArrayList<Ingredient> instead of Ingredient[]?
+   What is an enum?
+   Why is Unit implemented as an enum?
+   What advantages do enums provide over Strings?

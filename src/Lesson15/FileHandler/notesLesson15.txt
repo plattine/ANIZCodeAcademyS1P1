@@ -1,0 +1,3 @@
+Vi har lært i dag:  Lær filhåndtering i Java
+Min delmål er: Bliv bedre til OOP
+Min delmål er: Brug FileWriter og FileReader

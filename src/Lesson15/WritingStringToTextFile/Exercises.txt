@@ -1,0 +1,23 @@
+Create a Java program that:
+
+Writes text to a file using FileWriter
+Measures CPU time using System.nanoTime()
+Prints the execution time to the console
+Handles exceptions using try-catch
+Uses printStackTrace() if an error occurs
+
+Requirements
+Create a class called:
+StoryFileWriter
+
+The program must write to a file named:
+fairytaleOutput.txt
+
+The file must contain the following text:
+Once upon a time in a small village,
+there lived a young programmer.
+This is a test of FileWriter performance.
+
+Measure the CPU time before and after writing.
+
+Print the duration in nanoseconds.

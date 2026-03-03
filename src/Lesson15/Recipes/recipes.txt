@@ -1,0 +1,9 @@
+Pancakes
+Flour,200,GRAM,SOLID
+Milk,300,ML,LIQUID
+Eggs,2,PIECE,SOLID
+
+TomatoSoup
+Tomatoes,500,GRAM,SOLID
+Water,1000,ML,LIQUID
+Salt,5,GRAM,SOLID
