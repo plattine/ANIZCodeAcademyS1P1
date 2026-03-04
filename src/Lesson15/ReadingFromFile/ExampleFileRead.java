@@ -17,7 +17,7 @@ public class ExampleFileRead {
 
             while ((character = reader.read()) != -1) {
                 char c = (char) character;
-                // System.out.print(c);  // Undlad print for korrekt performance-måling
+                //System.out.print(c);  // Undlad print for korrekt performance-måling
             }
 
             reader.close();
