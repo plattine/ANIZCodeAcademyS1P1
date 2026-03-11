@@ -2,7 +2,9 @@ package Lesson17.GuineaFarm.ui;
 
 import Lesson17.GuineaFarm.model.GuineaPig;
 import Lesson17.GuineaFarm.service.GuineaPigFileHandler;
+import Lesson17.GuineaFarm.service.GuineaPigFileHandlerSolution;
 import Lesson17.GuineaFarm.util.GuineaPigSorter;
+import Lesson17.GuineaFarm.util.GuineaPigSortering;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -10,12 +12,12 @@ import java.util.Scanner;
 public class UserInterface {
 
     private ArrayList<GuineaPig> pigs;
-    private GuineaPigFileHandler fileHandler;
+    private GuineaPigFileHandlerSolution fileHandler;
     private Scanner scanner;
 
     public UserInterface() {
 
-        fileHandler = new GuineaPigFileHandler();
+        fileHandler = new GuineaPigFileHandlerSolution();
         scanner = new Scanner(System.in);
 
         pigs = fileHandler.loadPigs();
@@ -43,15 +45,18 @@ public class UserInterface {
                     break;
 
                 case 2:
-                    GuineaPigSorter.sortByName(pigs);
+                    GuineaPigSortering.sortByName(pigs);
+                    showPigs();
                     break;
 
                 case 3:
-                    GuineaPigSorter.sortByAge(pigs);
+                    GuineaPigSortering.sortByAge(pigs);
+                    showPigs();
                     break;
 
                 case 4:
-                    GuineaPigSorter.sortByWeight(pigs);
+                    GuineaPigSortering.sortByWeight(pigs);
+                    showPigs();
                     break;
 
                 case 5:

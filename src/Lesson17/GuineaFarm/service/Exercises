@@ -1,0 +1,57 @@
+Nedenfor finder I 15 kommentarer, der forklarer forskellige dele af koden.
+Men kommentarerne er blandet rundt.
+Jeres opgave
+1.	Læs koden grundigt.
+2.	Find det sted i koden, hvor kommentaren passer.
+3.	Skriv hvilken kode-del kommentaren beskriver.
+
+________________________________________
+Kommentarer (blandet)
+1
+Denne metode læser data fra en CSV-fil og returnerer en liste med objekter.
+Listen kan indeholde forskellige typer marsvin, fordi de nedarver fra samme superklasse.
+________________________________________
+2
+Denne konstant indeholder navnet på filen.
+final betyder, at værdien ikke kan ændres, og static betyder, at variablen tilhører klassen.
+________________________________________
+3
+Denne metode opdeler en tekstlinje fra CSV-filen i flere dele ved hjælp af kommaer.
+________________________________________
+4
+Her konverteres tekst fra filen til et heltal.
+Dette er nødvendigt fordi data fra filer altid læses som tekst.
+________________________________________
+5
+Denne konstruktion bruges til at læse filen linje for linje, indtil filen er slut.
+________________________________________
+6
+Her bruges en enum til at konvertere tekst til en foruddefineret værdi.
+________________________________________
+7
+Denne struktur bruges til at afgøre hvilken type objekt der skal oprettes.
+________________________________________
+8
+Denne liste bruges til at gemme alle objekter der læses fra filen.
+________________________________________
+9
+Her oprettes et objekt af typen PetGuineaPig og tilføjes til listen.
+________________________________________
+10
+Denne kode skriver data til en CSV-fil.
+________________________________________
+11
+Her bruges instanceof til at undersøge hvilken type objekt der ligger i listen.
+________________________________________
+12
+Her konverteres et objekt fra superklassen til en mere specifik klasse.
+________________________________________
+13
+Denne metode sikrer, at hvert objekt skrives på en ny linje i filen.
+________________________________________
+14
+Denne blok håndterer fejl der kan opstå ved læsning eller skrivning af filer.
+________________________________________
+15
+Denne konstruktion sørger for at filen automatisk bliver lukket efter brug.
+________________________________________

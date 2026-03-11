@@ -15,6 +15,8 @@ import java.util.Comparator;
 
 public class GuineaPigSorter {
 
+
+
     public static void sortByName(ArrayList<GuineaPig> pigs) {
 
         // STUDENT TASK

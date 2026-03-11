@@ -1,0 +1,18 @@
+friendsystem
+│
+├── model
+│   ├── Friend.java
+│   ├── Family.java
+│   └── Buddy.java
+│
+├── service
+│   └── FriendFileHandler.java
+│
+├── util
+│   └── ErrorHandler.java
+│
+└── ui
+    └── FriendUI.java
+│
+└── app
+    └── FriendApp.java

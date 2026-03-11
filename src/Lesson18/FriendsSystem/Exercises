@@ -1,0 +1,9 @@
+1. Hvorfor er det bedre at bruge specifikke exceptions i stedet for kun Exception?
+
+2. Hvorfor står Exception altid nederst i catch-blokkene?
+
+3. Hvad sker der hvis vi skriver: catch(Exception e) før de andre exceptions?
+
+4. Hvad er forskellen på:
+IOException
+FileNotFoundException

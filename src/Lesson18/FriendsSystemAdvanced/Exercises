@@ -1,0 +1,6 @@
+1.Hvorfor er det smart at have en ErrorHandler klasse?
+2.Hvorfor skal UI ikke ligge i App?
+3.Hvilken klasse håndterer:
+    brugerinput
+    filhåndtering
+    fejl

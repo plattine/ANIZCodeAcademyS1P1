@@ -1,6 +1,6 @@
 package Lesson17.GuineaFarm.model;
 
-public class GuineaPig {
+public abstract class GuineaPig {
 
     private String name;
     private int age;
@@ -45,4 +45,6 @@ public class GuineaPig {
                 " | breed: " + breed +
                 " | color: " + color;
     }
+
+    public abstract String getDescription();
 }
