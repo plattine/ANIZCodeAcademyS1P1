@@ -1,0 +1,26 @@
+moccamaster
+│
+├── main
+│   └── MoccaMasterApp.java
+│
+├── ui
+│   └── CoffeeMachineUI.java
+│
+├── model
+│   ├── Drink.java
+│   ├── CoffeeDrink.java
+│   ├── ChocolateDrink.java
+│   ├── Cup.java
+│   ├── DrinkType.java
+│   └── Size.java
+│
+├── service
+│   └── CoffeeMachine.java
+│
+├── file
+│   └── FileHandler.java
+│
+└── util
+    ├── ExceptionHandler.java
+    ├── CupComparator.java
+    └── CupSorter.java
